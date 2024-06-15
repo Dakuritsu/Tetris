@@ -14,15 +14,6 @@
 
 // gcc src/controller/main.c src/view/TetrisViewSDL.c src/view/TetrisViewSDL.h src/model/*.c  -o bin/prog -I include -L lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf  
 
-/*
-probleme lorsque l'on ne peut plus descendre on peut quand même rotate meme si on ne peut pas
-
-//manque de temps :
-    probleme des pieces qui peuent rotate à la fin
-    relancer une partie 
-    descendre immédiatement 
-    répétition de code et optimisation
-*/
 
 //====================DÉCLARATIONS==============================
 Position tileArrayI[][4]    =  {    { {1, 0}, {1, 1}, {1, 2}, {1, 3} },
